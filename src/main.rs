@@ -19,7 +19,7 @@ fn main() {
         println!("3) Deposit");
         println!("4) Withdraw");
         println!("5) Exit");
-        println!("6) Delete wallet"); // নতুন অপশন
+        println!("6) Delete wallet"); 
         println!("Choose an option: ");
 
         let choice = read_u32();
