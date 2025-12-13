@@ -202,7 +202,7 @@ fn withdraw(wallets: &mut Vec<Wallet>) {
     }
 }
 
-// ---------- নতুন: Wallet delete ---------- //
+// ----------  Wallet delete ---------- //
 
 fn delete_wallet(wallets: &mut Vec<Wallet>) {
     if wallets.is_empty() {
