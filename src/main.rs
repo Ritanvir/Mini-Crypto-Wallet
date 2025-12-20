@@ -42,7 +42,7 @@ fn main() {
                 break;
             }
             6 => {
-                delete_wallet(&mut wallets); // নতুন ফাংশন কল
+                delete_wallet(&mut wallets); 
             }
             _ => {
                 println!("Invalid choice, try again.");
@@ -215,7 +215,7 @@ fn delete_wallet(wallets: &mut Vec<Wallet>) {
 
     let original_len = wallets.len();
 
-    // retain দিয়ে সেইগুলো রেখে দেই, যাদের id != দেওয়া ID
+    
     wallets.retain(|w| w.id != id);
 
     if wallets.len() < original_len {
